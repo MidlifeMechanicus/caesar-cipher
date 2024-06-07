@@ -1,4 +1,5 @@
 # Take input string and shift value
+    # Negative values need to be converted
 # Convert string to numbers
     # #.ord will convert to number between 97 - 122
     # Capitals are separate; they run from 65 - 90

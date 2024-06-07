@@ -3,3 +3,8 @@
 This is a ruby exercise from the Odin Project's Ruby course. The instructions:
 
 *Implement a caesar cipher that takes in a string and the shift factor and then outputs the modified string.*
+
+  *> caesar_cipher("What a string!", 5)
+  => "Bmfy f xywnsl!"*
+
+I note that the example does **not** change spaces or punctuation. Capital letters also remain capitalised.
