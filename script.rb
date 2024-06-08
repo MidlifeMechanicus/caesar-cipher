@@ -1,14 +1,3 @@
-# Take input string and shift value
-    # Negative values need to be converted
-# Convert string to numbers
-    # #.ord will convert to number between 97 - 122
-    # Capitals are separate; they run from 65 - 90
-    # #.chr will convert them back
-# Add shift value to each number
-    #remember to wrap!
-# Convert shift value back to letters
-# Return new string
-
 puts "What would you like to say?"
 string = gets.chomp
 puts "How far would you like to shift?"
@@ -44,4 +33,3 @@ new_string =  letter_sequence.join
 
 puts "Your cipher is:"
 puts new_string
-
