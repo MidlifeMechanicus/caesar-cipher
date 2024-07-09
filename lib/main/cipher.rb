@@ -1,7 +1,6 @@
 # Generates a cipher based on shifting string characters by a set amount
 
 class Cipher
-
   def intialize
     # Another approach would be to set attributes such as @string, @shift and @cipher.
   end
@@ -42,12 +41,11 @@ class Cipher
         letter.ord
       end
     end
-    
+
     letter_sequence = number_sequence.map do |number|
       number.chr
     end
-    
+
     new_string = letter_sequence.join
   end
-
 end
